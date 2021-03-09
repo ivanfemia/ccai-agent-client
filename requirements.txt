@@ -1,0 +1,5 @@
+Flask==1.0.2
+requests==2.18.4
+google-cloud-dialogflow-cx
+python-dotenv==0.8.2
+pusher==3.0.0

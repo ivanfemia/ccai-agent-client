@@ -1,0 +1,82 @@
+body,html {
+    height: 100%;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.height {
+    height: 95%;
+}
+  
+.chat-container {
+    padding: 0px;
+    width: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.chat-message {
+    padding: 6px;
+    border-radius: 6px;
+    margin-bottom: 3px;
+}
+
+.chat-divider {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em; 
+}
+
+.chat-subtitle {
+    font-size: 0.7em;
+    white-space: pre-wrap;
+}
+
+.bot-action {
+    background: #d83234;
+    max-width: 300px;
+    color: white;
+    margin-left: auto;
+    border-color: #d83234;
+    text-align: right;
+}
+
+.bot-message {
+    background: #b3292b;
+    max-width: 300px;
+    color: white;
+    margin-left: auto;
+}
+
+.bot-messagepayload {
+    background: transparent;
+    max-width: 300px;
+    color: white;
+    margin-left: auto;
+    text-align: right;
+}
+
+.human-message {
+    background: dodgerblue;
+    max-width: 300px;
+    color: white;
+    margin: 13px 1px;
+}
+
+.input {
+    width: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
