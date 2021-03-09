@@ -1,9 +1,2 @@
 
-.DS_Store
-/env
-app.yaml
-sap-dialogflow*.json
-notes.txt
-ngrok
-ccai-agent-client.code-workspace
-CODE_OF_CONDUCT.md
+*.md
