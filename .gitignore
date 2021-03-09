@@ -1,0 +1,10 @@
+
+CODE_OF_CONDUCT.md
+.DS_Store
+app.yaml
+ccai-agent-client.code-workspace
+env/
+ngrok
+notes.txt
+sap-dialogflow-*.json
+.gcloudignore
