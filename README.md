@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a very simple client in Python to interact with a Dialogflow CX agent
+This is a very simple client in Python to interact with a Dialogflow CX agent as described in the blog [Application modernization with Google Cloud Platform: Chatbots](https://blogs.sap.com/2021/03/09/application-modernization-with-google-cloud-platform-chatbots/)
 
 ## Configuration
 
@@ -11,6 +11,8 @@ This is a very simple client in Python to interact with a Dialogflow CX agent
 1. Make a copy of the app.yaml.SAMPLE
 
 ```shell
+cd ccai-agent-client 
+cp .gcloudignore.SAMPLE .gcloudignore 
 cp app.yaml.SAMPLE app.yaml
 ```
 
