@@ -8,3 +8,6 @@ ngrok
 notes.txt
 sap-dialogflow-*.json
 .gcloudignore
+Dockerfile
+service.yaml
+.dockerignore
