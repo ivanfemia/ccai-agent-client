@@ -57,13 +57,11 @@ def detect_intent_text(agent, session_id, text, language_code):
     Using the same `session_id` between requests allows continuation
     of the conversation."""
     session_path = f"{agent}/sessions/{session_id}"
-    print(f"Session path: {session_path}\n")
     client_options = None
     agent_components = AgentsClient.parse_agent_path(agent)
     location_id = agent_components["location"]
     if location_id != "global":
         api_endpoint = f"{location_id}-dialogflow.googleapis.com:443"
-        print(f"API Endpoint: {api_endpoint}\n")
         client_options = {"api_endpoint": api_endpoint}
     session_client = SessionsClient(client_options=client_options)
 
