@@ -10,4 +10,4 @@ sap-dialogflow-*.json
 .gcloudignore
 Dockerfile
 service.yaml
-.dockerignore
+.dockerignore`
